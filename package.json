@@ -1,0 +1,35 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rod750/task-manager-server.git"
+  },
+  "author": "Rodrigo D. Cuervo",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rod750/task-manager-server/issues"
+  },
+  "homepage": "https://github.com/rod750/task-manager-server#readme",
+  "dependencies": {
+    "babel-node": "0.0.1-security",
+    "express": "^4.17.1",
+    "mongolens": "github:rod750/mongolens"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/runtime": "^7.11.2"
+  }
+}
