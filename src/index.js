@@ -1,7 +1,10 @@
 import { Mongolens } from "mongolens"
 import * as schema from "./schema"
-import dotenv from "dotenv"
-dotenv.config()
+
+if(process.env.NODE_ENV !== "production") {
+  const dotenv = require("dotenv")
+  dotenv.config()
+}
 
 const mongolens = new Mongolens({
   uris: process.env.MONGO_CONNECTION_STRING,
