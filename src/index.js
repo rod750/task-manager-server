@@ -11,7 +11,8 @@ const mongolens = new Mongolens({
   schemaDefs: schema,
   mongooseOptions: {
     useUnifiedTopology: true,
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useFindAndModify: false
   }
 })
 
